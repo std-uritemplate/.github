@@ -2,6 +2,9 @@ name: Contributor License Agreement Policy
 description: .NET Foundation CLA policy file
 
 resource: repository
+where:
+- |
+  repository.name.equals("std-uritemplate-csharp", StringComparison.InvariantCultureIgnoreCase)
   
 configuration: 
    cla:
